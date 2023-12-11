@@ -1,0 +1,29 @@
+{
+  "name": "nexusnudge-marketing",
+  "version": "1.0.0",
+  "description": "NexusNudge Marketing is an intelligent marketing automation platform designed to optimize customer interactions, enhance engagement, and increase conversion rates.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/nexusnudge-marketing.git"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tensorflow": "^3.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,362 @@
+/* public/index.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Home page styles */
+.home {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.home h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* About page styles */
+.about {
+  margin-top: 50px;
+}
+
+.about h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Contact page styles */
+.contact {
+  margin-top: 50px;
+}
+
+.contact h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Documentation page styles */
+.documentation {
+  margin-top: 50px;
+}
+
+.documentation h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.documentation p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* NotFound page styles */
+.not-found {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.not-found h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.not-found p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Recommendation page styles */
+.recommendation {
+  margin-top: 50px;
+}
+
+.recommendation h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.recommendation p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Contribution page styles */
+.contribution {
+  margin-top: 50px;
+}
+
+.contribution h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contribution p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Example page styles */
+.example {
+  margin-top: 50px;
+}
+
+.example h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.example p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Links page styles */
+.links {
+  margin-top: 50px;
+}
+
+.links h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.links p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* LiveDemo page styles */
+.live-demo {
+  margin-top: 50px;
+}
+
+.live-demo h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.live-demo p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Usage page styles */
+.usage {
+  margin-top: 50px;
+}
+
+.usage h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.usage p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Installation page styles */
+.installation {
+  margin-top: 50px;
+}
+
+.installation h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.installation p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* GettingStarted page styles */
+.getting-started {
+  margin-top: 50px;
+}
+
+.getting-started h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.getting-started p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* ProjectStructure page styles */
+.project-structure {
+  margin-top: 50px;
+}
+
+.project-structure h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.project-structure p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* ProjectGoals page styles */
+.project-goals {
+  margin-top: 50px;
+}
+
+.project-goals h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.project-goals p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* TechnologiesUsed page styles */
+.technologies-used {
+  margin-top: 50px;
+}
+
+.technologies-used h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.technologies-used p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* UsageExamples page styles */
+.usage-examples {
+  margin-top: 50px;
+}
+
+.usage-examples h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.usage-examples p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Acknowledgments page styles */
+.acknowledgments {
+  margin-top: 50px;
+}
+
+.acknowledgments h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.acknowledgments p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Contributing page styles */
+.contributing {
+  margin-top: 50px;
+}
+
+.contributing h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contributing p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* License page styles */
+.license {
+  margin-top: 50px;
+}
+
+.license h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.license p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* ContactInformation page styles */
+.contact-information {
+  margin-top: 50px;
+}
+
+.contact-information h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-information p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
